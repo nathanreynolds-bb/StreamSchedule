@@ -20,10 +20,10 @@ body, html, #root {
 }
 
 #grid-wrapper {
-  width: 80svw;
+  width: 80%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2vh 4vh;
+  gap: 2% 0;
   justify-items: center;
   justify-content: center;
 }
@@ -37,30 +37,37 @@ body, html, #root {
   justify-content: center;
   text-decoration: underline;
 }
-.day {
+div.grid-item.day {
   justify-content: flex-end;
+  border-right: none;
+  padding-right: 10%;
 }
-.time{
+div.grid-item.time{
   justify-content: center;
+  border-right: 2px dotted #888;
+  border-left: 2px dotted #888;
 }
-.game {
+div.grid-item.game {
   justify-content: flex-start;
+  border-left: none;
+  padding-left: 10%;
 }
 
 h1.grid-item {
   grid-column: 1 / 4;
-  font-size: 6vw;
+  font-size: 6em;
   margin: 4vh 0;
 }
 
 h2.grid-item {
-  font-size: 3.5vw;
-  margin:  0;
+  font-size: 3.5em;
+  margin: 0;
   justify-content: center;
 }
 
 div.grid-item {
-  font-size: 3vw;
-  padding: 2%;
+  font-size: 3em;
+  padding-top: 2%;
+  padding-bottom: 2%;
   border: 2px solid #888;
 }
