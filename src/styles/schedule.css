@@ -9,6 +9,7 @@ body, html, #root {
 #background {
   height: 100%;
   width: 100%;
+  overflow: auto;
   background-image: url("/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -60,6 +61,6 @@ h2.grid-item {
 
 div.grid-item {
   font-size: 3vw;
-  padding: 2vh;
+  padding: 2%;
   border: 2px solid #888;
 }
