@@ -1,10 +1,8 @@
 import React from "react";
 import '../styles/schedule.css';
+import scheduleData from '../data/schedule.json';
 
-const schedule = [
-    { day: 'Thursday', time: '8:00pm', game: 'Monster Hunter' },
-    { day: 'Sunday', time: '6:00pm', game: 'Warframe' },
-];
+const schedule = scheduleData
 
 export default function Schedule() {
     return (
