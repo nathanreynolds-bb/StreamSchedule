@@ -1,4 +1,12 @@
 [
-  { "day": "Thursday", "time": "5:00pm", "game": "Satisfactory" },
-  { "day": "Sunday", "time": "6:00pm", "game": "Warframe" }
+    {
+        "day": "Sunday",
+        "time": "6:00pm",
+        "game": "Warframe"
+    },
+    {
+        "day": "Thursday",
+        "time": "8:00pm",
+        "game": "Warframe"
+    }
 ]
