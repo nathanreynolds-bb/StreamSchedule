@@ -9,6 +9,7 @@ export default function Schedule() {
         <div id="background">
             <main id="grid-wrapper">
                 <h1 className="grid-item heading">Stream Schedule:</h1>
+                    <aside className="grid-item">All times shown in CST/CDT</aside>
                     <h2 className="grid-item label day">Day</h2>
                     <h2 className="grid-item label time">Time</h2>
                     <h2 className="grid-item label game">Game</h2>

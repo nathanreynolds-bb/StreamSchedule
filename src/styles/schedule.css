@@ -57,6 +57,11 @@ h1.grid-item {
   grid-column: 1 / 4;
   font-size: 6vw;
   margin: 4vh 0;
+  margin-bottom: 0;
+}
+aside.grid-item {
+  grid-column: 1 / 4;
+  justify-content: center;
 }
 
 h2.grid-item {
